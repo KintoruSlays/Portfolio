@@ -1,0 +1,24 @@
+html {
+    background-color: antiquewhite;
+}
+body {
+    margin: 0;
+}
+.titleText {
+    font-size: 50px;
+}
+.subtitleText {
+    font-size: 20px;
+}
+#header {
+    text-align: center;
+    background-color: #daccb0;
+    padding: 10px;
+    height: 5px;
+}
+.images {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
