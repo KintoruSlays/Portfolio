@@ -29,8 +29,8 @@ body {
     align-items: center;
 }
 .outline {
+    display: flex;
     border: 5px solid black;
-    margin: 10px;
 }
 .boxy {
     margin: 20px;
