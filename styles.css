@@ -1,5 +1,7 @@
 html {
     background: linear-gradient(to bottom, rgb(94, 94, 94), rgb(50, 50, 50));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 body {
     margin: 0;
@@ -32,9 +34,23 @@ body {
     height: 15px;
 }
 #mysteryMansion {
-    padding-top: 300px;
+    padding-top: 500px;
+}
+.categoryBox {
+    display: flex;
+    align-items: center;
+    background-color: #2b2b2b;
+    padding: 20px;
+    height: 30px;
 }
 .images {
+    border-radius: 10px;
+    flex-wrap: wrap;
+    background-color: #0e0e0e;
     align-items: flex-end;
     display: flex;
+}
+.background2 {
+    background-color: #0e0e0e;
+    height: 200px;
 }
