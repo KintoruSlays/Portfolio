@@ -1,47 +1,40 @@
 html {
-    background-color: rgb(252, 234, 137);
+    background: linear-gradient(to bottom, rgb(94, 94, 94), rgb(50, 50, 50));
 }
 body {
     margin: 0;
 }
 .titleText {
+    text-align: left;
     font-size: 50px;
     font-weight: bold;
-    color: #ffffff;
+    color: white;
     text-shadow: 2px 2px #000000;
 }
 .subtitleText {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
-    color: #ffffff;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+.categoryText {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
     text-shadow: 2px 2px #000000;
 }
 #header {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #e2aa3a;
-    padding: 10px;
-    height: 5px;
+    padding: 20px;
+    height: 15px;
+}
+#mysteryMansion {
+    padding-top: 300px;
 }
 .images {
-    margin: 200px;
+    align-items: flex-end;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.outline {
-    display: flex;
-    border: 5px solid black;
-}
-.boxy {
-    margin: 20px;
-    background-color: #f50606;
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    right: 0px;
-}
-.background {
-    margin-bottom: 100px;
-    background-color: #f1f0ed;
-    height: 200px;
 }
